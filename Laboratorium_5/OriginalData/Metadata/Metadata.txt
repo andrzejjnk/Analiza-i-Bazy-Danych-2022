@@ -1,0 +1,15 @@
+Information about weather data from a station in Mexico contained in the file weather.txt
+The original weather.txt data is written in the directory: 
+Analiza-i-Bazy-Danych-2022/Laboratorium_5/OriginalData/weather.txt
+The data was extracted between 1956 and 2011 from a certain station in Mexico.
+
+The columns of the input data file include:
+The first column contains:
+-indeterminant of the measuring station
+- the month in which the measurement was taken
+- the year in which the measurement was taken
+- the type of variable that was measured: PRCP(precipitation), TMAX(maximum temperature) and TMIN(minimum temperature)
+
+The remaining columns contain data from the days of the month from 1 to 31. Months with less than 31 days have structural missing values for the last days of the month.
+
+The data is separated by either space or letter characters like: 'OS', 'OI', 'I', 'SI', 'S', 'B', 'D'. Some columns have invalid values like -9999 or 0, which were removed during data analysis. 
