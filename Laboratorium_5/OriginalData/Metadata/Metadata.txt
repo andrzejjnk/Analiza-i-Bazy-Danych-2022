@@ -5,7 +5,7 @@ The data was extracted between 1956 and 2011 from a certain station in Mexico.
 
 The columns of the input data file include:
 The first column contains:
--indeterminant of the measuring station
+- ID of the measuring station
 - the month in which the measurement was taken
 - the year in which the measurement was taken
 - the type of variable that was measured: PRCP(precipitation), TMAX(maximum temperature) and TMIN(minimum temperature)
