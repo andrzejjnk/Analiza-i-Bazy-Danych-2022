@@ -9,7 +9,7 @@
 
 library(magrittr)
 library(ggplot2)
-# library("GGally")
+library("GGally")
 library(cluster)
 
 #Zadanie 1.1
@@ -31,9 +31,8 @@ hist <- ggplot(iris, aes(x = Sepal.Length)) + geom_histogram(aes(fill = Species)
 ggsave("/home/Zadanie2.4.jpg", plot = hist)
 
 #Zadanie 2.6
-# poniższe linie sa zakomentowane ponieważ nie mogłem dodać biblioteki "GGally". Próbowałem ją dodac na kilka różnych sposobów ale nic nie pomogło, zrzut ekranu z terminalu podczas instalacji jest w pliku "GGally.png"
-# pairs <- ggpairs(data = iris, aes(color = Species))
-# ggsave("/home/Zadanie2.6.jpg", plot = pairs)
+pairs <- ggpairs(data = iris, aes(color = Species))
+ggsave("/home/Zadanie2.6.jpg", plot = pairs)
 
 #Zadanie 3.3
 x <- iris[,1:4]
